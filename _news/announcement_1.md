@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started as a Student Researcher at Google DeepMind in London.
+Started as a Student Researcher at [Google DeepMind](https://deepmind.google/) in London.

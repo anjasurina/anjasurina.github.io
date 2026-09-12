@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Selected for Forbes 30u30 in Slovenia in Science&Tech category.
+Selected for [Forbes 30 under 30 in Slovenia](https://forbes.n1info.si/event/forbesov-izbor-30-pod-30-2025/#event-TEHNOLOGIJAINZNANOST).
