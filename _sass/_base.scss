@@ -242,6 +242,11 @@ ul.task-list input[type="checkbox"] {
   vertical-align: -0.05em;
 }
 
+.inline-logo.logo-small.logo-inset {
+  box-sizing: content-box;
+  padding: 0 0.085em;
+}
+
 .inline-logo.logo-wide {
   width: auto;
   height: 0.62em;
