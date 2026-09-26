@@ -10,8 +10,8 @@ contact_note: >
   contact [at] anjasurina [dot] com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Anja Surina is a PhD student at EPFL advised by Prof. Caglar Gulcehre and Prof. Emmanuel Abbe, working on
-  large language models (LLMs) for mathematical and scientific discovery and on
-  understanding the nature of their intelligence. Previously: Google DeepMind
+  training and using large language models (LLMs) for scientific discovery and on
+  understanding their intelligence. Previously: Google DeepMind
   (AlphaEvolve and AlphaProof Nexus teams), Mila (Bengio lab), Stanford (Leskovec lab),
   IBM Research.
 footer_text: >
@@ -24,7 +24,10 @@ keywords: >
   scientific discovery, AI for math, AI for science, reinforcement learning,
   evolutionary search, EvoTune, Google DeepMind, Mila, Stanford, IBM Research, ETH Zurich,
   Inherent, Inherent Laboratories, agents, research, discovery, artificial intelligence,
-  AI agents, AI scientists
+  AI agents, AI scientists, biomedical discovery, AI for biology, AI for medicine,
+  automated scientific discovery, algorithm discovery, AlphaEvolve, AlphaProof,
+  formal theorem proving, causal inference, LLM reasoning, factuality, post-training,
+  LLM post-training, RL
 lang: en
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

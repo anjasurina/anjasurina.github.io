@@ -4,9 +4,9 @@ title: about
 permalink: /
 description: >
   Anja Surina is a PhD student at EPFL advised by Prof. Caglar Gulcehre and Prof. Emmanuel Abbe
-  and a Research Fellow at Inherent Laboratories, working
-  on large language models (LLMs) for mathematical and scientific discovery and
-  on understanding the nature of their intelligence. Previously at Google DeepMind
+  and a Research Fellow at Inherent Laboratories, working on training and using
+  large language models (LLMs) for scientific discovery and
+  on understanding their intelligence. Previously at Google DeepMind
   (AlphaEvolve and AlphaProof Nexus teams), Mila (Bengio lab), Stanford (Leskovec lab),
   and IBM Research.
 keywords: >
@@ -14,7 +14,10 @@ keywords: >
   large language models, AI for math, AI for science, mathematical discovery,
   scientific discovery, reinforcement learning, evolutionary search, EvoTune,
   Google DeepMind, Mila, Stanford, IBM Research, ETH Zurich, Inherent, Inherent Laboratories,
-  agents, research, discovery, artificial intelligence, AI agents, AI scientists
+  agents, research, discovery, artificial intelligence, AI agents, AI scientists,
+  biomedical discovery, AI for biology, AI for medicine, automated scientific discovery,
+  algorithm discovery, AlphaEvolve, AlphaProof, formal theorem proving, causal inference,
+  LLM reasoning, factuality, post-training, LLM post-training, RL
 og_image: /assets/img/profile-pic.jpg
 # subtitle: <b>PhD student <a href='https://www.epfl.ch/labs/claire/'>@EPFL</a><b>
 profile:
@@ -32,7 +35,7 @@ announcements:
 
 I am a PhD student at <a href="https://www.epfl.ch/schools/ic/"><img class="inline-logo logo-wordmark" src="/assets/img/logos/epfl.svg" alt="">EPFL</a> advised by [Prof. Caglar Gulcehre](https://www.caglar.ai/) and [Prof. Emmanuel Abbe](https://abbelab.ai/), and a Research Fellow at <a href="https://inherentlabs.ai/"><img class="inline-logo logo-small" src="/assets/img/logos/inherent.svg" alt="">Inherent Laboratories</a>.
 
-<p class="research-statement">My research focuses on using LLMs for mathematical and scientific discovery, and on understanding the nature of their intelligence.</p>
+<p class="research-statement">My research focuses on training and using LLMs for scientific discovery, and on understanding their intelligence.</p>
 
 Previously, I did research at:
 
