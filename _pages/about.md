@@ -34,11 +34,11 @@ I am a PhD student at <a href="https://www.epfl.ch/schools/ic/"><img class="inli
 
 <p class="research-statement">My research focuses on using LLMs for mathematical and scientific discovery, and on understanding the nature of their intelligence.</p>
 
-I have previously interned at:
+Previously, I did research at:
 
 - <a href="https://deepmind.google/"><img class="inline-logo" src="/assets/img/logos/deepmind.png" alt="">Google DeepMind</a> on the AlphaEvolve and AlphaProof Nexus teams
 - <a href="https://mila.quebec/en"><img class="inline-logo" src="/assets/img/logos/mila.png" alt="">Mila</a> in [Prof. Yoshua Bengio](https://yoshuabengio.org/en)'s lab
 - <a href="https://www.stanford.edu/"><img class="inline-logo" src="/assets/img/logos/stanford.png" alt="">Stanford</a> in [Prof. Jure Leskovec](https://cs.stanford.edu/people/jure/)'s lab
 - <a href="https://research.ibm.com/labs/zurich"><img class="inline-logo logo-wide" src="/assets/img/logos/ibm.svg" alt="">IBM Research</a>, in the Emerging Computing and Circuits group
 
-I received an MSc in Neural Systems and Computation from <a href="https://ethz.ch/en.html"><img class="inline-logo logo-wordmark" src="/assets/img/logos/eth.svg" alt="">ETH Zurich</a> and a BSc in Electrical Engineering from the <a href="https://fe.uni-lj.si/en/"><img class="inline-logo" src="/assets/img/logos/ljubljana.png" alt="">University of Ljubljana</a>.
+I received an *MSc in Neural Systems and Computation* from <a href="https://ethz.ch/en.html"><img class="inline-logo logo-wordmark" src="/assets/img/logos/eth.svg" alt="">ETH Zurich</a> and a *BSc in Electrical Engineering* from the <a href="https://fe.uni-lj.si/en/"><img class="inline-logo" src="/assets/img/logos/ljubljana.png" alt="">University of Ljubljana</a>.
