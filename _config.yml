@@ -9,7 +9,7 @@ last_name: Surina
 contact_note: >
   contact[at]anjasurina[dot]com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Anja Surina is a PhD student at EPFL advised by Prof. Caglar Gulcehre and Prof. Emmanuel Abbe, working on
+  Anja Surina is a PhD candidate at EPFL advised by Prof. Caglar Gulcehre and Prof. Emmanuel Abbe, working on
   training and using large language models (LLMs) for scientific discovery and on
   understanding their intelligence. Previously: Google DeepMind
   (AlphaEvolve and AlphaProof Nexus teams), Mila (Bengio lab), Stanford (Leskovec lab),
@@ -17,7 +17,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
 keywords: >
-  Anja Surina, Anja Šurina, EPFL, CLAIRE Lab, Caglar Gulcehre, Emmanuel Abbe, PhD student,
+  Anja Surina, Anja Šurina, EPFL, CLAIRE Lab, Caglar Gulcehre, Emmanuel Abbe, PhD candidate,
   machine learning, large language models, LLMs, mathematical discovery,
   scientific discovery, AI for math, AI for science, reinforcement learning,
   evolutionary search, EvoTune, Google DeepMind, Mila, Stanford, IBM Research, ETH Zurich,

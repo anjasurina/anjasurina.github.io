@@ -3,14 +3,14 @@ layout: about
 title: about
 permalink: /
 description: >
-  Anja Surina is a PhD student at EPFL advised by Prof. Caglar Gulcehre and Prof. Emmanuel Abbe
+  Anja Surina is a PhD candidate at EPFL advised by Prof. Caglar Gulcehre and Prof. Emmanuel Abbe
   and a Research Fellow at Inherent Laboratories, working on training and using
   large language models (LLMs) for scientific discovery and
   on understanding their intelligence. Previously at Google DeepMind
   (AlphaEvolve and AlphaProof Nexus teams), Mila (Bengio lab), Stanford (Leskovec lab),
   and IBM Research.
 keywords: >
-  Anja Surina, EPFL, Caglar Gulcehre, Emmanuel Abbe, PhD student, machine learning, LLMs,
+  Anja Surina, EPFL, Caglar Gulcehre, Emmanuel Abbe, PhD candidate, machine learning, LLMs,
   large language models, AI for math, AI for science, mathematical discovery,
   scientific discovery, reinforcement learning, evolutionary search, EvoTune,
   Google DeepMind, Mila, Stanford, IBM Research, ETH Zurich, Inherent, Inherent Laboratories,
@@ -33,7 +33,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-I am a PhD student at <a href="https://www.epfl.ch/schools/ic/"><img class="inline-logo logo-wordmark logo-standalone" src="/assets/img/logos/epfl.svg" alt="EPFL"></a> advised by [Prof. Caglar Gulcehre](https://www.caglar.ai/) and [Prof. Emmanuel Abbe](https://abbelab.ai/), and a Research Fellow at <a href="https://inherentlabs.ai/"><img class="inline-logo logo-small" src="/assets/img/logos/inherent.svg" alt="">Inherent Laboratories</a>.
+I am a PhD candidate at <a href="https://www.epfl.ch/schools/ic/"><img class="inline-logo logo-wordmark logo-standalone" src="/assets/img/logos/epfl.svg" alt="EPFL"></a> advised by [Prof. Caglar Gulcehre](https://www.caglar.ai/) and [Prof. Emmanuel Abbe](https://abbelab.ai/), and a Research Fellow at <a href="https://inherentlabs.ai/"><img class="inline-logo logo-small" src="/assets/img/logos/inherent.svg" alt="">Inherent Laboratories</a>.
 
 <p class="research-statement">My research focuses on training and using LLMs for scientific discovery, and on understanding their intelligence.</p>
 
