@@ -33,7 +33,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-I am a PhD student at <a href="https://www.epfl.ch/schools/ic/"><img class="inline-logo logo-wordmark" src="/assets/img/logos/epfl.svg" alt="">EPFL</a> advised by [Prof. Caglar Gulcehre](https://www.caglar.ai/) and [Prof. Emmanuel Abbe](https://abbelab.ai/), and a Research Fellow at <a href="https://inherentlabs.ai/"><img class="inline-logo logo-small" src="/assets/img/logos/inherent.svg" alt="">Inherent Laboratories</a>.
+I am a PhD student at <a href="https://www.epfl.ch/schools/ic/"><img class="inline-logo logo-wordmark logo-standalone" src="/assets/img/logos/epfl.svg" alt="EPFL"></a> advised by [Prof. Caglar Gulcehre](https://www.caglar.ai/) and [Prof. Emmanuel Abbe](https://abbelab.ai/), and a Research Fellow at <a href="https://inherentlabs.ai/"><img class="inline-logo logo-small" src="/assets/img/logos/inherent.svg" alt="">Inherent Laboratories</a>.
 
 <p class="research-statement">My research focuses on training and using LLMs for scientific discovery, and on understanding their intelligence.</p>
 
@@ -44,4 +44,4 @@ Previously, I did research at:
 - <a href="https://www.stanford.edu/"><img class="inline-logo" src="/assets/img/logos/stanford.png" alt="">Stanford</a> in [Prof. Jure Leskovec](https://cs.stanford.edu/people/jure/)'s lab
 - <a href="https://research.ibm.com/labs/zurich"><img class="inline-logo logo-wide" src="/assets/img/logos/ibm.svg" alt="">IBM Research</a>, in the Emerging Computing and Circuits group
 
-I received an *MSc in Neural Systems and Computation* from <a href="https://ethz.ch/en.html"><img class="inline-logo logo-wordmark" src="/assets/img/logos/eth.svg" alt="">ETH Zurich</a> and a *BSc in Electrical Engineering* from the <a href="https://fe.uni-lj.si/en/"><img class="inline-logo" src="/assets/img/logos/ljubljana.png" alt="">University of Ljubljana</a>.
+I received an *MSc in Neural Systems and Computation* from <a href="https://ethz.ch/en.html"><img class="inline-logo logo-wordmark logo-standalone" src="/assets/img/logos/eth-zurich.svg" alt="ETH Zurich"></a> and a *BSc in Electrical Engineering* from the <a href="https://fe.uni-lj.si/en/"><img class="inline-logo" src="/assets/img/logos/ljubljana.png" alt="">University of Ljubljana</a>.
