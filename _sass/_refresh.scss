@@ -1,0 +1,164 @@
+/*******************************************************************************
+ * Light "paper" refresh: warm background, IBM Plex type, monospace accents
+ ******************************************************************************/
+
+$font-sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+$font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+:root {
+  --global-bg-color: #faf8f4;
+  --global-card-bg-color: #faf8f4;
+  --global-text-color: #2b2a27;
+  --global-text-color-light: #77746c;
+  --global-divider-color: rgba(43, 42, 39, 0.1);
+  --global-footer-bg-color: #faf8f4;
+  --global-footer-text-color: #77746c;
+  --global-footer-link-color: #2b2a27;
+}
+
+body {
+  font-family: $font-sans;
+  font-size: 15.5px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+p,
+li {
+  line-height: 1.7;
+}
+
+a {
+  text-underline-offset: 0.18em;
+}
+
+// Navigation
+.navbar {
+  opacity: 1;
+  background-color: rgba(250, 248, 244, 0.92) !important;
+  backdrop-filter: blur(6px);
+}
+
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  font-family: $font-mono;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  font-weight: 500;
+  box-shadow: inset 0 -2px 0 var(--global-theme-color);
+}
+
+// Name heading
+.post-header .post-title {
+  font-family: $font-mono;
+  font-size: 1.9rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.25rem;
+
+  .font-weight-bold {
+    font-weight: 600 !important;
+  }
+}
+
+// Section headings
+.about-content > h2 {
+  font-family: $font-sans;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: var(--global-text-color);
+  padding-bottom: 0.45rem;
+  margin-bottom: 1.1rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+// Research statement
+.research-statement {
+  color: var(--global-text-color);
+}
+
+// Smaller profile photo and monospace contact links
+@media (min-width: 768px) {
+  .about-profile,
+  .about-profile.profile {
+    flex: 0 0 205px;
+    width: 205px;
+  }
+}
+
+.about-profile {
+  img {
+    border-radius: 4px !important;
+    box-shadow: none !important;
+    border: 1px solid var(--global-divider-color);
+  }
+
+  .contact-list {
+    margin-top: 0.9rem;
+    font-family: $font-mono;
+    font-size: 0.78rem !important;
+    line-height: 1.9;
+
+    i {
+      width: 1.1em;
+      color: var(--global-text-color-light);
+      font-size: 0.85em;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .about-profile img {
+    max-width: 180px;
+  }
+}
+
+// Publications
+.publications {
+  ol.bibliography li {
+    .title {
+      font-weight: 500;
+    }
+
+    .author {
+      font-size: 0.88rem;
+      color: var(--global-text-color-light);
+
+      em {
+        color: var(--global-text-color);
+      }
+    }
+
+    .periodical .venue-label {
+      font-family: $font-mono;
+      font-weight: 500;
+      border-radius: 2px;
+    }
+
+    .periodical .pub-year {
+      font-family: $font-mono;
+      font-size: 0.75rem;
+    }
+
+    .links a.btn {
+      font-family: $font-mono;
+      text-transform: lowercase;
+      letter-spacing: 0.02em;
+    }
+  }
+}
+
+.pub-footnote {
+  font-family: $font-mono;
+}
+
+// Footer
+footer.fixed-bottom,
+footer.sticky-bottom {
+  border-top: 1px solid var(--global-divider-color);
+  font-family: $font-mono;
+  font-size: 0.72rem;
+}

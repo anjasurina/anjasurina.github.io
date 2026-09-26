@@ -7,7 +7,7 @@ first_name: Anja
 middle_name: 
 last_name: Surina
 contact_note: >
-  contact [at] anjasurina [dot] com
+  contact[at]anjasurina[dot]com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Anja Surina is a PhD student at EPFL advised by Prof. Caglar Gulcehre and Prof. Emmanuel Abbe, working on
   training and using large language models (LLMs) for scientific discovery and on
@@ -15,9 +15,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   (AlphaEvolve and AlphaProof Nexus teams), Mila (Bengio lab), Stanford (Leskovec lab),
   IBM Research.
 footer_text: >
-  Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
-  and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme,
-  hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
 keywords: >
   Anja Surina, Anja Šurina, EPFL, CLAIRE Lab, Caglar Gulcehre, Emmanuel Abbe, PhD student,
   machine learning, large language models, LLMs, mathematical discovery,
@@ -452,7 +450,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600|IBM+Plex+Mono:400,500|Roboto:300,400,500,700|Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:
