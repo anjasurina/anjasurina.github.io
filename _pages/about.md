@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 description: >
   Anja Surina is a PhD candidate at EPFL advised by Prof. Caglar Gulcehre and Prof. Emmanuel Abbe
@@ -40,7 +40,7 @@ I am a PhD candidate at <a href="https://www.epfl.ch/schools/ic/"><img class="in
 Previously, I did research at:
 
 - <a href="https://deepmind.google/"><img class="inline-logo" src="/assets/img/logos/deepmind.png" alt="">Google DeepMind</a> on the AlphaEvolve and AlphaProof Nexus teams
-- <a href="https://mila.quebec/en"><img class="inline-logo" src="/assets/img/logos/mila.png" alt="">Mila</a> in [Prof. Yoshua Bengio](https://yoshuabengio.org/en)'s lab
+- <a href="https://mila.quebec/en"><img class="inline-logo logo-small" src="/assets/img/logos/mila.svg" alt="">Mila</a> in [Prof. Yoshua Bengio](https://yoshuabengio.org/en)'s lab
 - <a href="https://www.stanford.edu/"><img class="inline-logo" src="/assets/img/logos/stanford.png" alt="">Stanford</a> in [Prof. Jure Leskovec](https://cs.stanford.edu/people/jure/)'s lab
 - <a href="https://research.ibm.com/labs/zurich"><img class="inline-logo logo-wide" src="/assets/img/logos/ibm.svg" alt="">IBM Research</a>, in the Emerging Computing and Circuits group
 
