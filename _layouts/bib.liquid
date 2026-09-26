@@ -103,10 +103,7 @@
         {%- endif -%}
 
         {%- if forloop.length > 1 -%}
-          {% if forloop.first == false -%}
-            {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif %}
-          {%- endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
+          {% if forloop.first == false -%}, {% endif -%}
         {% endif %}
         {%- if author_is_self -%}
           <em>
@@ -140,7 +137,7 @@
           {% endunless %}
         {%- endfor -%}
         {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        , and
+        ,
         <span
           class="more-authors"
           title="click to view {{ more_authors_hide }}"
@@ -219,11 +216,11 @@
     {% if entry.secondary_venue %}
       <div class="periodical">
         <span class="venue-label">{{ entry.secondary_venue }}</span>{% if entry.secondary_year %}<span class="pub-year">{{ entry.secondary_year }}</span>{% endif %}
-        {% if entry.secondary_info %}
-          &middot; {{ entry.secondary_info }}
-        {% endif %}
         {% if entry.award %}
           <span class="award-inline">{%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}</span>
+        {% endif %}
+        {% if entry.secondary_info %}
+          &middot; {{ entry.secondary_info }}
         {% endif %}
       </div>
     {% endif %}
