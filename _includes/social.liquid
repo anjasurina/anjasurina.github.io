@@ -4,7 +4,12 @@
   {% if social_list.email %}
   <li>
     <i class="fas fa-envelope-open-text"></i>
-    {{ social_list.email.name }}
+    <a class="email-link" data-user="{{ social_list.email.user }}" data-domain="{{ social_list.email.domain }}">{{ social_list.email.name }}</a>
+    <script>
+      document.querySelectorAll('.email-link').forEach((a) => {
+        a.href = 'mailto:' + a.dataset.user + '@' + a.dataset.domain;
+      });
+    </script>
   </li>
   {% endif %}
 

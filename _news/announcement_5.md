@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Did a podcast with [Forbes Slovenia](https://www.metropolitan.si/play/forbes-30-pod-30/forbes-30-pod-30/video/forbes-30-pod-30-anja-surina-znanstvenica-2/).
+Did a podcast with [Forbes Slovenia](https://www.metropolitan.si/play/forbes-30-pod-30/forbes-30-pod-30/video/forbes-30-pod-30-anja-surina-znanstvenica-2/) (in Slovenian).

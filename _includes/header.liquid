@@ -56,6 +56,14 @@
             </a>
           </li>
 
+          <!-- CV (shown once assets/pdf/cv.pdf exists) -->
+          {% assign cv_file = site.static_files | where: 'path', '/assets/pdf/cv.pdf' | first %}
+          {% if cv_file %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ cv_file.path | relative_url }}" target="_blank" rel="noopener">cv</a>
+            </li>
+          {% endif %}
+
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}

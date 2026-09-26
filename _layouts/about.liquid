@@ -26,13 +26,6 @@ layout: default
           <h2>News</h2>
           {% include news.liquid limit=true %}
         {% endif %}
-
-        {% if page.publications %}
-          <h2>Publications</h2>
-          <div class="publications">
-            {% bibliography %}
-          </div>
-        {% endif %}
       </article>
     </div>
 
@@ -60,4 +53,14 @@ layout: default
       </aside>
     {% endif %}
   </div>
+
+  {% if page.publications %}
+    <article class="about-content">
+      <h2>Publications</h2>
+      <div class="publications">
+        {% bibliography %}
+      </div>
+      <p class="pub-footnote">* equal contribution</p>
+    </article>
+  {% endif %}
 </div>

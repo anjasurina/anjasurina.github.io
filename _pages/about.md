@@ -3,10 +3,12 @@ layout: about
 title: about
 permalink: /
 description: >
-  Anja Surina is a PhD student at EPFL advised by Prof. Caglar Gulcehre and Prof. Emmanuel Abbe, working
+  Anja Surina is a PhD student at EPFL advised by Prof. Caglar Gulcehre and Prof. Emmanuel Abbe
+  and a Research Fellow at Inherent Laboratories, working
   on large language models (LLMs) for mathematical and scientific discovery and
-  on the nature of machine intelligence. Previously at Google DeepMind, Mila
-  (Bengio lab), Stanford (Leskovec lab), and IBM Research Zurich.
+  on understanding the nature of their intelligence. Previously at Google DeepMind
+  (AlphaEvolve and AlphaProof Nexus teams), Mila (Bengio lab), Stanford (Leskovec lab),
+  and IBM Research.
 keywords: >
   Anja Surina, EPFL, Caglar Gulcehre, Emmanuel Abbe, PhD student, machine learning, LLMs,
   large language models, AI for math, AI for science, mathematical discovery,
@@ -23,11 +25,20 @@ profile:
 publications: true # includes the full list of papers from _bibliography/papers.bib
 social: true # includes social icons at the bottom of the page
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-I am a PhD student at [EPFL](https://www.epfl.ch/schools/ic/) advised by [Prof. Caglar Gulcehre](https://www.caglar.ai/) and [Prof. Emmanuel Abbe](https://abbelab.ai/). My research focuses on using LLMs for mathematical and scientific discovery, and on understanding the nature of their intelligence.
+I am a PhD student at <a href="https://www.epfl.ch/schools/ic/"><img class="inline-logo logo-wordmark" src="/assets/img/logos/epfl.svg" alt="">EPFL</a> advised by [Prof. Caglar Gulcehre](https://www.caglar.ai/) and [Prof. Emmanuel Abbe](https://abbelab.ai/), and a Research Fellow at <a href="https://inherentlabs.ai/"><img class="inline-logo logo-small" src="/assets/img/logos/inherent.svg" alt="">Inherent Laboratories</a>.
 
-I have previously interned at [Google DeepMind](https://deepmind.google/) on the AlphaEvolve team, at [Mila](https://mila.quebec/en) in [Prof. Yoshua Bengio](https://yoshuabengio.org/en)'s lab, at [Stanford](https://www.stanford.edu/) in [Prof. Jure Leskovec](https://cs.stanford.edu/people/jure/)'s lab, and at [IBM Research](https://research.ibm.com/labs/zurich) in Zurich. I received a Master's degree in Neural Systems and Computation from [ETH Zurich](https://ethz.ch/en.html) and a Bachelor's degree in Electrical Engineering from the [University of Ljubljana](https://fe.uni-lj.si/en/).
+<p class="research-statement">My research focuses on using LLMs for mathematical and scientific discovery, and on understanding the nature of their intelligence.</p>
+
+I have previously interned at:
+
+- <a href="https://deepmind.google/"><img class="inline-logo" src="/assets/img/logos/deepmind.png" alt="">Google DeepMind</a> on the AlphaEvolve and AlphaProof Nexus teams
+- <a href="https://mila.quebec/en"><img class="inline-logo" src="/assets/img/logos/mila.png" alt="">Mila</a> in [Prof. Yoshua Bengio](https://yoshuabengio.org/en)'s lab
+- <a href="https://www.stanford.edu/"><img class="inline-logo" src="/assets/img/logos/stanford.png" alt="">Stanford</a> in [Prof. Jure Leskovec](https://cs.stanford.edu/people/jure/)'s lab
+- <a href="https://research.ibm.com/labs/zurich"><img class="inline-logo logo-wide" src="/assets/img/logos/ibm.svg" alt="">IBM Research</a>, in the Emerging Computing and Circuits group
+
+I received an MSc in Neural Systems and Computation from <a href="https://ethz.ch/en.html"><img class="inline-logo logo-wordmark" src="/assets/img/logos/eth.svg" alt="">ETH Zurich</a> and a BSc in Electrical Engineering from the <a href="https://fe.uni-lj.si/en/"><img class="inline-logo" src="/assets/img/logos/ljubljana.png" alt="">University of Ljubljana</a>.

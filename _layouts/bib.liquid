@@ -176,19 +176,19 @@
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
+      {% capture entrytype %}<span class="venue-label">{{ entry.journal }}</span>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
+      {% capture entrytype %}<span class="venue-label">{{ entry.booktitle }}</span>{% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
     {% if entry.month %}
-      {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
+      {% capture entrymonth %}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
     {% if entry.year %}
-      {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
+      {% capture entryyear %}{{ entry.year }}{% endcapture %}
     {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
@@ -201,21 +201,41 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% if entry.type == 'article' or proceedings contains entry.type %}
+      {% capture periodical %}{{ entrytype }}{% if entryyear != "" %}<span class="pub-year">{% if entry.month %}{{ entrymonth }} {% endif %}{{ entryyear }}</span>{% endif %}{% endcapture %}
+    {% else %}
+      {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }} {{ entryyear }}{% endcapture %}
+    {% endif %}
+    <div class="pub-meta">
+    <div class="pub-venues">
     <div class="periodical">
       {{ periodical | strip }}
+      {% unless entry.secondary_venue %}
+        {% if entry.award %}
+          <span class="award-inline">{%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}</span>
+        {% endif %}
+      {% endunless %}
     </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
+    {% if entry.secondary_venue %}
+      <div class="periodical">
+        <span class="venue-label">{{ entry.secondary_venue }}</span>{% if entry.secondary_year %}<span class="pub-year">{{ entry.secondary_year }}</span>{% endif %}
+        {% if entry.secondary_info %}
+          &middot; {{ entry.secondary_info }}
+        {% endif %}
+        {% if entry.award %}
+          <span class="award-inline">{%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}</span>
+        {% endif %}
+      </div>
+    {% endif %}
+    {% if entry.note %}
+      <div class="periodical">
+        {{ entry.note | strip }}
+      </div>
+    {% endif %}
     </div>
 
     <!-- Links/Buttons -->
     <div class="links">
-      {% if entry.award %}
-        <span class="award-label btn btn-sm z-depth-0">
-          {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
-        </span>
-      {% endif %}
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
@@ -277,6 +297,7 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+    </div>
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}

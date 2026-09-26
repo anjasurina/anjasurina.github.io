@@ -215,6 +215,58 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+.inline-logo {
+  width: 0.95em;
+  height: 0.95em;
+  margin-right: 0.3em;
+  vertical-align: -0.1em;
+  border-radius: 2px;
+}
+
+.inline-logo.logo-wordmark {
+  width: auto;
+  height: 0.55em;
+  border-radius: 0;
+  vertical-align: 0;
+}
+
+.inline-logo.logo-small {
+  width: 0.78em;
+  height: 0.78em;
+  vertical-align: -0.05em;
+}
+
+.inline-logo.logo-wide {
+  width: auto;
+  height: 0.62em;
+  border-radius: 0;
+  vertical-align: 0.02em;
+}
+
+.research-statement {
+  margin: 1.1rem 0 1.25rem;
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--global-theme-color);
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
+.about-content > h2 {
+  margin-top: 2.25rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.pub-footnote {
+  margin-top: -0.5rem;
+  color: var(--global-text-color-light);
+  font-size: 0.75rem;
+}
+
 .about-layout {
   display: flex;
   flex-direction: column;  /* stack on mobile */
@@ -797,7 +849,7 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
 
       .preview {
       }
@@ -853,8 +905,8 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
           font-style: normal;
+          font-weight: 600;
         }
 
         > span.more-authors {
@@ -869,36 +921,74 @@ footer.sticky-bottom {
         }
       }
 
+      .periodical {
+        margin-top: 0.3rem;
+        color: var(--global-text-color-light);
+        font-size: 0.8rem;
+
+        .venue-label {
+          display: inline-block;
+          padding: 0.05rem 0.4rem;
+          border-radius: 3px;
+          background-color: rgba($accent-color, 0.08);
+          color: var(--global-theme-color);
+          font-size: 0.75rem;
+          font-style: normal;
+          font-weight: 600;
+          letter-spacing: 0.02em;
+          line-height: 1.4;
+        }
+
+        .pub-year {
+          margin-left: 0.3rem;
+        }
+
+        .award-inline {
+          margin-left: 0.45rem;
+          color: #b8451c;
+          font-style: italic;
+          font-weight: 600;
+        }
+      }
+
+      .pub-meta {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: baseline;
+        justify-content: space-between;
+        column-gap: 1.5rem;
+
+        @media (max-width: 576px) {
+          flex-wrap: wrap;
+        }
+      }
+
+      .pub-venues {
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+
       .links {
+        margin-top: 0.3rem;
+        margin-left: auto;
+        white-space: nowrap;
+
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
+          color: var(--global-text-color-light);
+          border: none;
+          padding: 0;
+          margin: 0 0 0 0.9rem;
+          background-color: transparent;
+          font-size: 0.75rem;
+          font-weight: 400;
+          letter-spacing: 0.04em;
+          text-transform: uppercase;
+          box-shadow: none;
 
           &:hover {
             color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            background-color: transparent;
           }
-        }
-        a.award.btn {
-          border-color: var(--global-highlight-color);
-        }
-        span.award-label.btn {
-          color: var(--global-highlight-color);
-          border: 1px solid var(--global-highlight-color);
-          background-color: transparent;
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
-          cursor: default;
-          font-weight: 600;
-          pointer-events: none;
         }
       }
 

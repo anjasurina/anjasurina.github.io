@@ -19,6 +19,8 @@ twitter:
   name: X.com
 email:
   name: "contact [at] anjasurina.com"
+  user: contact
+  domain: anjasurina.com
 # cv:
 #   link: "/assets/pdf/anja-surina-cv.pdf"
 #   name: "CV - updated Nov 2025"
