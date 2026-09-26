@@ -111,7 +111,16 @@ a {
     li {
       display: flex;
       align-items: center;
+    }
+
+    li > a {
+      display: inline-flex;
+      align-items: center;
       gap: 0.5rem;
+    }
+
+    li > a:hover .contact-icon {
+      color: inherit;
     }
 
     .contact-icon {

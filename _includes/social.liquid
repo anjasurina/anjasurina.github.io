@@ -3,8 +3,7 @@
 <ul class="contact-list">
   {% if social_list.email %}
   <li>
-    <span class="contact-icon" aria-hidden="true">{% include icons/envelope-simple.svg %}</span>
-    <a class="email-link" data-user="{{ social_list.email.user }}" data-domain="{{ social_list.email.domain }}">{{ social_list.email.name }}</a>
+    <a class="email-link" data-user="{{ social_list.email.user }}" data-domain="{{ social_list.email.domain }}"><span class="contact-icon" aria-hidden="true">{% include icons/envelope-simple.svg %}</span>{{ social_list.email.name }}</a>
     <script>
       document.querySelectorAll('.email-link').forEach((a) => {
         a.href = 'mailto:' + a.dataset.user + '@' + a.dataset.domain;
@@ -15,8 +14,7 @@
 
   {% if social_list.googlescholar %}
   <li>
-    <span class="contact-icon" aria-hidden="true">{% include icons/graduation-cap.svg %}</span>
-    <a href="{{ social_list.googlescholar.link }}">{{ social_list.googlescholar.name }}</a>
+    <a href="{{ social_list.googlescholar.link }}"><span class="contact-icon" aria-hidden="true">{% include icons/graduation-cap.svg %}</span>{{ social_list.googlescholar.name }}</a>
   </li>
   {% endif %}
 
@@ -29,22 +27,19 @@
 
   {% if social_list.github %}
   <li>
-    <span class="contact-icon" aria-hidden="true">{% include icons/github-logo.svg %}</span>
-    <a href="{{ social_list.github.link }}">{{ social_list.github.name }}</a>
+    <a href="{{ social_list.github.link }}"><span class="contact-icon" aria-hidden="true">{% include icons/github-logo.svg %}</span>{{ social_list.github.name }}</a>
   </li>
   {% endif %}
 
   {% if social_list.linkedin %}
   <li>
-    <span class="contact-icon" aria-hidden="true">{% include icons/linkedin-logo.svg %}</span>
-    <a href="{{ social_list.linkedin.link }}">{{ social_list.linkedin.name }}</a>
+    <a href="{{ social_list.linkedin.link }}"><span class="contact-icon" aria-hidden="true">{% include icons/linkedin-logo.svg %}</span>{{ social_list.linkedin.name }}</a>
   </li>
   {% endif %}
 
   {% if social_list.twitter %}
   <li>
-    <span class="contact-icon" aria-hidden="true">{% include icons/x-logo.svg %}</span>
-    <a href="{{ social_list.twitter.link }}">{{ social_list.twitter.name }}</a>
+    <a href="{{ social_list.twitter.link }}"><span class="contact-icon" aria-hidden="true">{% include icons/x-logo.svg %}</span>{{ social_list.twitter.name }}</a>
   </li>
   {% endif %}
 
