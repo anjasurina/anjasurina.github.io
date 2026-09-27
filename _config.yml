@@ -27,7 +27,7 @@ keywords: >
   formal theorem proving, causal inference, LLM reasoning, factuality, post-training,
   LLM post-training, RL
 lang: en
-icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://anjasurina.github.io # the base hostname & protocol for your site
 # baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
