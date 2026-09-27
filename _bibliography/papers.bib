@@ -2,6 +2,7 @@
 ---
 
 @article{falck2026training,
+  tldr={Replicating a paper demands the same hypothesis-driven exploration as open-ended research, making it a training ground for research taste. Trained on this task with long-horizon RL, our 27B-parameter AI scientist, Faraday, outperforms frontier agents Claude Opus 4.8 and GPT-5.5 at replicating research, a step toward models capable of autonomous innovation.},
   title={Training AI Scientists to Replicate Research},
   author={Falck, Damon and Sabri, Samer and Surina, Anja and Foster, Thom and Sims, Anya and Devlin, Sam and Rogers, Dylan and Collins, Tantum and Aleksiev, Kaloyan and Kirsch, Louis and Hughes, Edward},
   journal={arXiv},
@@ -12,6 +13,7 @@
 }
 
 @article{davidson2026futurefacts,
+  tldr={Language models are fast becoming our default interface to facts, yet what they recognize as true often differs from what they can recall. We trace how this generation-verification gap emerges and evolves over a fact's lifecycle. Our findings call for rethinking how we measure factuality in language models. As more training data from the web is written by models themselves, the gap also risks a quiet drift in what counts as usable knowledge.},
   title={The Future of Facts: Tracing the Factual Generation-Verification Gap},
   author={Davidson*, Tim R. and Surina*, Anja and Gulcehre, Caglar},
   journal={NeurIPS},
@@ -28,6 +30,7 @@
 }
 
 @article{tsoukalas2026advancing,
+  tldr={We developed AlphaProof Nexus, Google DeepMind's Gemini-powered agent for formal proof search. It autonomously solved 9 open Erdős problems (two of them open for 56 years) and advanced research-level mathematics across various fields, with every proof verified in Lean.},
   title={Advancing Mathematics Research with AI-Driven Formal Proof Search},
   author={Tsoukalas, George and Kovsharov, Anton and Shirobokov, Sergey and Surina, Anja and Firsching, Moritz and B{\'e}rczi, Gergely and Ruiz, Francisco J. R. and Suggala, Arun and Wagner, Adam Zsolt and Wieser, Eric and Yu, Lei and Huang, Aja and Horv{\'a}th, Mikl{\'o}s Z. and Ferraiuolo, Andrew and Michalewski, Henryk and Lockhart, Edward and Grosu, Codrut and Hubert, Thomas and Balog, Matej and Kohli, Pushmeet and Chaudhuri, Swarat},
   journal={arXiv},
@@ -38,15 +41,18 @@
 }
 
 @article{surina2026improved,
+  tldr={Using AlphaProof Nexus, we resolved an open question in min-max optimization by proving that Anchored Gradient Descent Ascent achieves the faster O(1/t) rate. The agent autonomously discovered both the proof and the new step-size schedule that makes it work, verified in Lean.},
   title={An Improved Last-Iterate Convergence Rate for Anchored Gradient Descent Ascent},
   author={Surina, Anja and Suggala, Arun and Tsoukalas, George and Kovsharov, Anton and Shirobokov, Sergey and Ruiz, Francisco JR and Kohli, Pushmeet and Chaudhuri, Swarat},
   journal={arXiv},
   year={2026},
   url={https://arxiv.org/abs/2604.03782},
-  pdf={https://arxiv.org/pdf/2604.03782}
+  pdf={https://arxiv.org/pdf/2604.03782},
+  note={Results later incorporated into the <strong>Advancing Mathematics Research with AI-Driven Formal Proof Search</strong> paper}
 }
 
 @article{surina2025algorithm,
+  tldr={We developed EvoTune, which uses reinforcement learning to let an LLM learn from its own discoveries during evolutionary search. By training the model to become a better search operator, EvoTune finds better algorithms faster than AlphaEvolve-style search with a fixed LLM, a step toward self-improving LLMs for algorithm design.},
   title={Algorithm Discovery With {LLM}s: Evolutionary Search Meets Reinforcement Learning},
   author={Anja Surina and Amin Mansouri and Lars C.P.M. Quaedvlieg and Amal Seddas and Maryna Viazovska and Emmanuel Abbe and Caglar Gulcehre},
   journal={COLM},
@@ -63,6 +69,7 @@
 }
 
 @article{tarasov2024role,
+  tldr={Actor networks are a known bottleneck in offline RL. We show that regularizers already standard in deep learning, such as dropout and layer normalization, applied to the actor improve performance across algorithms and benchmarks.},
   title={The Role of Deep Learning Regularizations on Actors in Offline RL},
   author={Tarasov, Denis and Surina, Anja and Gulcehre, Caglar},
   journal={arXiv},
@@ -73,6 +80,7 @@
 }
 
 @article{nilforoshan2023zero,
+  tldr={We developed CaML, a causal meta-learning framework that predicts the personalized effects of a novel intervention, such as a newly invented drug, without ever seeing that intervention during training. On large-scale patient records and cell-line perturbation data, its zero-shot predictions outperform even baselines trained directly on data from the new intervention.},
   title={Zero-Shot Causal Learning},
   author={Nilforoshan, Hamed and Moor, Michael and Roohani, Yusuf and Chen, Yining and Surina, Anja and Yasunaga, Michihiro and Oblak, Sara and Leskovec, Jure},
   journal={NeurIPS},
@@ -85,6 +93,7 @@
 }
 
 @article{bohnstingl2022biologically,
+  tldr={Backpropagation through time is ill-suited to online learning, since it must store every past neural state. We show that e-prop, a local, biologically inspired approximation of it, can train recurrent spiking neural networks online on neuromorphic hardware, with performance competitive with full-precision training.},
   author={Bohnstingl, Thomas and Surina, Anja and Fabre, Maxime and Demira{\u{g}}, Yi{\u{g}}it and Frenkel, Charlotte and Payvand, Melika and Indiveri, Giacomo and Pantazi, Angeliki},
   journal={IEEE AICAS}, 
   title={Biologically-Inspired Training of Spiking Recurrent Neural Networks with Neuromorphic Hardware}, 

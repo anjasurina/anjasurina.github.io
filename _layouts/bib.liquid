@@ -214,6 +214,9 @@
           <span class="award-inline">{%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}</span>
         {% endif %}
       {% endunless %}
+      {% if entry.note %}
+        &middot; {{ entry.note | strip }}
+      {% endif %}
     </div>
     {% if entry.secondary_venue %}
       <div class="periodical">
@@ -224,11 +227,6 @@
         {% if entry.secondary_info %}
           &middot; {{ entry.secondary_info }}
         {% endif %}
-      </div>
-    {% endif %}
-    {% if entry.note %}
-      <div class="periodical">
-        {{ entry.note | strip }}
       </div>
     {% endif %}
     </div>
@@ -298,6 +296,9 @@
       {% endif %}
     </div>
     </div>
+    {% if entry.tldr %}
+      <p class="tldr">{{ entry.tldr }}</p>
+    {% endif %}
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}

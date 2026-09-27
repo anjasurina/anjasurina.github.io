@@ -193,6 +193,13 @@ a:hover,
       text-transform: lowercase;
       letter-spacing: 0.02em;
     }
+
+    .tldr {
+      margin: 0.35rem 0 0;
+      font-size: 0.88rem;
+      line-height: 1.5;
+      color: var(--global-text-color-light);
+    }
   }
 }
 
