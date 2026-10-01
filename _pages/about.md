@@ -4,7 +4,7 @@ title: About
 permalink: /
 description: >
   PhD candidate at EPFL and Research Fellow at Inherent Laboratories, working on
-  training and using LLMs for scientific discovery and on understanding their intelligence.
+  post-training and test-time scaling of LLMs, particularly for scientific and mathematical discovery, and on understanding their cognition and intelligence.
 keywords: >
   Anja Surina, EPFL, Caglar Gulcehre, Emmanuel Abbe, PhD candidate, machine learning, LLMs,
   large language models, AI for math, AI for science, mathematical discovery,
@@ -31,7 +31,7 @@ announcements:
 
 I am a PhD candidate at <a href="https://www.epfl.ch/schools/ic/"><img class="inline-logo logo-wordmark logo-standalone" src="/assets/img/logos/epfl.svg" alt="EPFL"></a> advised by [Prof Caglar Gulcehre](https://www.caglar.ai/) and [Prof Emmanuel Abbe](https://abbelab.ai/), and a Research Fellow at <a href="https://inherentlabs.ai/"><img class="inline-logo logo-small" src="/assets/img/logos/inherent.svg" alt="">Inherent Laboratories</a>.
 
-<p class="research-statement">My research focuses on training and using LLMs for scientific discovery, and on understanding their intelligence.</p>
+<p class="research-statement">My research focuses on post-training and test-time scaling of LLMs, particularly for scientific and mathematical discovery, and on understanding their cognition and intelligence.</p>
 
 Previously, I did research at:
 
