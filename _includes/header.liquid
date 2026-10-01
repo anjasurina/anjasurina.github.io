@@ -1,8 +1,8 @@
 <header>
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  <nav id="navbar" class="navbar navbar-light navbar-expand {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
+      {% if page.permalink != '/' and page.permalink != '/cv/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
@@ -59,8 +59,8 @@
           <!-- CV (shown once assets/pdf/cv.pdf exists) -->
           {% assign cv_file = site.static_files | where: 'path', '/assets/pdf/cv.pdf' | first %}
           {% if cv_file %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ cv_file.path | relative_url }}" target="_blank" rel="noopener">cv</a>
+            <li class="nav-item {% if page.permalink == '/cv/' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/cv/' | relative_url }}">cv</a>
             </li>
           {% endif %}
 
