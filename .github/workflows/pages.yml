@@ -36,6 +36,10 @@ jobs:
       - name: Install Jupyter
         run: pip install notebook
 
+      # ImageMagick generates the responsive .webp images (no longer preinstalled on ubuntu-24.04)
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
       - name: Configure Pages
         id: pages
         uses: actions/configure-pages@v5
