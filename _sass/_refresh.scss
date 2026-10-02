@@ -67,6 +67,21 @@ a:hover,
   margin-top: 1.5rem;
 }
 
+.cv-pages canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 4px;
+  background: #fff;
+}
+
+.cv-open {
+  font-family: $font-mono;
+  font-size: 0.8rem;
+}
+
 .cv-frame iframe {
   display: block;
   width: 100%;
@@ -190,6 +205,11 @@ a:hover,
       em {
         color: var(--global-text-color);
       }
+    }
+
+    .periodical,
+    .links {
+      margin-top: 0.05rem;
     }
 
     .periodical .venue-label {
