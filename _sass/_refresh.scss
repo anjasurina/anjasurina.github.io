@@ -82,6 +82,13 @@ a:hover,
   font-size: 0.8rem;
 }
 
+.cv-updated {
+  margin-top: 0.75rem;
+  font-family: $font-mono;
+  font-size: 0.75rem;
+  color: var(--global-text-color-light);
+}
+
 .cv-frame iframe {
   display: block;
   width: 100%;

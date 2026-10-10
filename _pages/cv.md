@@ -11,6 +11,8 @@ description:
   <iframe src="{{ cv_url }}#view=FitH&navpanes=0" title="Anja Šurina CV"></iframe>
 </div>
 
+<p class="cv-updated">Updated October 2026</p>
+
 <script type="module">
   // Phones and tablets often cannot show PDFs inside a page, so draw it with PDF.js there.
   const frame = document.getElementById("cv-frame");
