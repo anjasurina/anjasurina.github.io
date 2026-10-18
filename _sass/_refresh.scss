@@ -207,7 +207,7 @@ a:hover,
 
     .author {
       font-size: 0.88rem;
-      color: var(--global-text-color-light);
+      color: color-mix(in srgb, var(--global-text-color) 28%, var(--global-text-color-light));
 
       em {
         color: var(--global-text-color);
@@ -240,7 +240,7 @@ a:hover,
       margin: 0.35rem 0 0;
       font-size: 0.88rem;
       line-height: 1.5;
-      color: var(--global-text-color-light);
+      color: color-mix(in srgb, var(--global-text-color) 58%, var(--global-text-color-light));
     }
   }
 }
